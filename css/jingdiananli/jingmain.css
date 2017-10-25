@@ -1,0 +1,77 @@
+
+/*图片展示区 开始*/
+.box-img{
+    position: relative;
+    top:100px;
+    width:100%;
+    height:550px;
+    /*margin-top:100px;*/
+    background: url("../../images/jingdiananli/bg.jpg") no-repeat center center;
+    background-size: 105%;
+}
+.content-g{
+    position: absolute;
+    top:220px;
+    left:105px;
+    width:400px;
+    height:115px;
+}
+.content-g p:nth-child(2){
+    margin:20px 0 10px;
+}
+/*图片展示区 结束*/
+
+/*内容区 开始*/
+.contain{
+    width:100%;
+    margin-top:125px;
+}
+.anli{
+    width:100%;
+}
+.anli .al-box{
+    max-width:520px;
+    width:50%;
+    margin:0 auto;
+    padding:30px 0;
+    line-height:40px;
+    text-align: center;
+    background: url("../../images/index/line.png") no-repeat bottom center;
+}
+.anli .al-box h2 img{
+    width:50%;
+}
+.anli .al-box h1{
+    width:100%;
+    font-size:20px;
+}
+
+.contain .c-box{
+    max-width: 860px;
+    width: 79%;
+    margin: 120px auto 0;
+}
+.contain .c-box h1{
+    font-size: 20px;
+    color: rgb(100,100,100);
+
+}
+.contain .c-box p{
+    margin:60px 0;
+    line-height:30px;
+    font-size:16px;
+    color: rgb(150,150,150);
+}
+.contain .c-box .c-b-img{
+    width:100%;
+}
+.contain .c-box .c-b-img img{
+    display:block;
+    max-width:507px;
+    width:100%;
+    margin:0 auto;
+}
+.contain .a-b-last{
+    margin-bottom:50px;
+}
+/*内容区 结束*/

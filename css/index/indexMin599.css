@@ -1,0 +1,130 @@
+@media all and (max-width: 599px) and (min-width: 320px){
+
+    /*start banner*/
+    #banner{
+        /*width:100%;*/
+        height:400px;
+        margin-top:102px;
+    }
+    /*公共部分*/
+    #banner .b-part .part .left{
+        position: absolute;
+        width:200px;
+        /*height:120px;*/
+    }
+    #banner .b-part .part .right{
+        position: absolute;
+        width:300px;
+        /*height:445px;*/
+    }
+    #banner .b-part .part .right img{
+        width:100%;
+        height:100%;
+    }
+    /*第一张*/
+    #banner .b-part .part1 .p1-l{
+        height:78px;
+        top:285px;
+        left:50%;
+        margin-left:-100px;
+    }
+    #banner .b-part .part1 .p1-r{
+        height:250px;
+        top:20px;
+        right:50%;
+        margin-right:-150px;
+    }
+    /*第二三张的公共部分*/
+    /*第二张*/
+    #banner .b-part .part2 .p2-r{
+        top:20px;
+        right:50%;
+        margin-right:-150px;
+    }
+    #banner .b-part .part2 .p2-l{
+        top:250px;
+        left:50%;
+        margin-left:-100px;
+    }
+    #banner .b-part .part2 .p2-l img{
+        width:100%;
+        height:100%;
+    }
+    /*第三张*/
+    #banner .b-part .part3 .p3-r{
+        /*top:20px;*/
+        left:50%;
+        margin-left:-150px;
+    }
+    #banner .b-part .part3 .p3-l{
+        top:250px;
+        left:50%;
+        margin-left:-100px;
+    }
+    #banner .b-part .part3 .p3-l img{
+        width:100%;
+        height:100%;
+    }
+    /*end banner*/
+
+    /*案例开始*/
+    #contair{
+        position: relative;
+        width:100%;
+        height:690px;
+    }
+    .anli .al-box{
+        width:70%;
+    }
+    .anli .al-box h2 img{
+        width:70%;
+    }
+    /*手机 开始*/
+    #contair .c-ph .c-p-img{
+        width:200px;
+    }
+    #contair .c-ph .c-p-img ul{
+        left:-710px;
+        width:1620px;
+        height:350px;
+    }
+    #contair .c-ph .c-p-img ul .c-p-i-li{
+        width:180px;
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        -o-transform: scale(1.1);
+        transform: scale(1.1);
+    }
+    /*手机 结束*/
+    /*点导航 开始*/
+    #contair .c-ph .c-ph-nav .c-p-n-dot{
+        display: none;
+    }
+    /*点导航 结束*/
+    /*案例结束*/
+
+    /*研发开始*/
+    #yf{
+        height:380px;
+    }
+    #yf .yf-list{
+        margin:20px 0;
+    }
+    #yf .yf-list .yf-l-ul{
+        width:100%;
+    }
+    #yf .yf-list .yf-l-ul .yf-l-u-li{
+        float: none;
+        margin:20px auto;
+        text-align: center;
+    }
+    #yf .yf-list .yf-l-ul .yf-l-u-li img{
+        width:35%;
+    }
+    #yf .yf-list .yf-l-ul .yf-l-u-li:nth-child(2) img{
+        width:20%;
+    }
+    /*研发结束*/
+
+}

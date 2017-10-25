@@ -1,0 +1,18 @@
+@media all and (max-width: 1200px) and (min-width: 900px) {
+    /*图片展示区 开始*/
+    .box-img{
+        top:70px;
+        height:516px;
+        background-size: cover;
+    }
+    .content-g{
+        left:50px;
+        top:200px;
+    }
+    /*图片展示区 结束*/
+    /*案例开始*/
+    .contain{
+        margin-top:80px;
+    }
+    /*案例结束*/
+}

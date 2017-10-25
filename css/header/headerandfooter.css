@@ -1,0 +1,273 @@
+/*start header*/
+#header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 65px;
+    background: #e9e8ee;
+    -webkit-box-shadow: 0 2px 5px  #ccc;
+    -moz-box-shadow: 0 2px 5px  #ccc;
+    box-shadow: 0 2px 5px  #ccc;
+    z-index:999;
+}
+#header .h-main{
+    width:95%;
+    max-width:1100px;
+    height:100%;
+    margin:0 auto;
+}
+#header .h-main .h-m-logo{
+    float: left;
+}
+#header .h-main .h-m-logo>a{
+    display: block;
+    padding:14px;
+}
+/*nav start*/
+#header .h-main .h-m-nav{
+    float: left;
+    height:100%;
+    margin:0 0 0 100px;
+}
+#header .h-main .h-m-nav .nav-list1{
+    height:100%;
+    display: block;
+}
+#header .h-main .h-m-nav .nav-list2{
+    display: none;
+}
+#header .h-main .h-m-nav .nav-list1 .n-l-li{
+    float: left;
+    height:100%;
+}
+#header .h-main .h-m-nav .nav-list .n-l-li>a{
+    position: relative;
+    display: block;
+    padding:23px 41px;
+    font-size:15px;
+    color: #000;
+    text-align: center;
+}
+#header .h-main .h-m-nav .nav-list .n-l-li>a:hover{
+    color: #A7C31E;
+}
+#header .h-main .h-m-nav .nav-list li.active>a{
+    color: #A7C31E;
+}
+/*end header*/
+/*footer start*/
+#footer{
+    width:90%;
+    margin:0 auto;
+    border-top:1px solid #e6e6e6;
+    overflow: hidden;
+}
+#footer .f-line{
+    width:740px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#footer .f-line p{
+    float: left;
+    margin:20px 50px 50px 0;
+    font-size:16px;
+    color: #c2c2c2;
+    text-align: center;
+}
+#footer .f-line .f-l-p1{
+    max-width: 240px;
+}
+#footer .f-line .f-l-p2{
+    max-width: 200px;
+}
+#footer .f-line .f-l-p3{
+    max-width: 220px;
+}
+/*footer end*/
+@media all and (max-width: 1200px) and (min-width: 900px) {
+    /*start header*/
+    #header .h-main .h-m-nav {
+        margin: 0 0 0 50px;
+    }
+    #header .h-main .h-m-nav .nav-list1 .n-l-li > a {
+        padding: 23px 20px;
+    }
+}
+
+@media all and (max-width: 599px) and (min-width: 320px) {
+    /*start header*/
+    #header {
+        height: 100px;
+        background: #fff;
+    }
+    #header .h-main {
+        /*width:715px;*/
+        width: 100%;
+    }
+    #header .h-main .h-m-logo {
+        float: none;
+        width: 100%;
+        height: 45px;
+    }
+    #header .h-main .h-m-logo > a {
+        width: 132px;
+        height: 37px;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    #header .h-main .h-m-nav {
+        float: none;
+        width: 60%;
+        /*height:55px;*/
+        min-width: 320px;
+        margin: 0 auto;
+    }
+    #header .h-main .h-m-nav .nav-list1 {
+        display: none;
+    }
+
+    #header .h-main .h-m-nav .nav-list2 {
+        display: block;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n-l-li {
+        float: left;
+        margin: 20px 15px 0;
+    }
+    #header .h-main .h-m-nav .nav-list .n-l-li > a {
+        display: inline;
+        padding: 0;
+        color: #000;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img {
+        display: block;
+        position: relative;
+        font-size: 15px;
+        cursor: pointer;
+        margin: 0 auto;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img img {
+        position: absolute;
+        top: 4px;
+        left: 33px;
+        width: 44%;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img .more {
+        display: none;
+        position: absolute;
+        top: 25px;
+        left: -24px;
+        width: 100px;
+        height: 140px;
+        background: #fff;
+        border: 1px solid #000;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img .more > li {
+        line-height: 35px;
+        text-align: center;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img .more > li a:hover {
+        color: #A7C31E;
+    }
+    /*end header*/
+    /*footer start*/
+    #footer .f-line{
+        width:100%;
+    }
+    #footer .f-line p{
+        float: none;
+        margin:20px auto;
+        font-size:12px;
+    }
+    /*footer end*/
+}
+
+
+@media all and (max-width: 899px) and (min-width: 600px) {
+    /*start header*/
+    #header {
+        height: 100px;
+        background: #fff;
+    }
+    #header .h-main {
+        width: 100%;
+    }
+    #header .h-main .h-m-logo {
+        float: none;
+        width: 100%;
+        height: 45px;
+    }
+    #header .h-main .h-m-logo > a {
+        width: 132px;
+        height: 37px;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+    #header .h-main .h-m-nav {
+        float: none;
+        width: 54%;
+        min-width: 480px;
+        height: 55px;
+        margin: 0 auto;
+    }
+    #header .h-main .h-m-nav .nav-list1 {
+        display: none;
+    }
+    #header .h-main .h-m-nav .nav-list2 {
+        display: block;
+        height: 55px;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n-l-li {
+        float: left;
+        width: 80px;
+        margin: 20px 20px 0;
+    }
+    #header .h-main .h-m-nav .nav-list .n-l-li > a {
+        display: block;
+        padding: 0;
+        color: #000;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img {
+        position: relative;
+        width: 80px;
+        font-size: 15px;
+        cursor: pointer;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img > img {
+        width: 18%;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img .more {
+        display: none;
+        position: absolute;
+        top: 25px;
+        left: -28px;
+        width: 100px;
+        height: 140px;
+        background: #fff;
+        border: 1px solid #000;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img .more > li {
+        line-height: 35px;
+        text-align: center;
+    }
+    #header .h-main .h-m-nav .nav-list2 .n2-mg .nav-img .more > li a:hover {
+        color: #A7C31E;
+    }
+    /*end header*/
+    /*footer start*/
+    #footer .f-line{
+        width:100%;
+    }
+    #footer .f-line p{
+        float: none;
+        margin:20px auto;
+    }
+    /*footer end*/
+}
+

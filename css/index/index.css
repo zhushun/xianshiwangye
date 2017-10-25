@@ -1,0 +1,292 @@
+
+/*start banner*/
+#banner{
+    position: relative;
+    width:100%;
+    height:500px;
+    margin-top:72px;
+}
+#banner .b-part{
+    position: relative;
+    width:100%;
+    height:100%;
+}
+#banner .b-part .part{
+    display: none;
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+#banner .b-part .part .left{
+    position: absolute;
+    width:310px;
+    height:120px;
+}
+#banner .b-part .part .right{
+    position: absolute;
+    width:635px;
+    /*height:445px;*/
+}
+#banner .b-part .part .right img{
+    width:100%;
+    height:100%;
+}
+/*第一张*/
+#banner .b-part .part1{
+    /*display: block;*/
+    background: url("../../images/index/bg1-1.png") no-repeat center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+#banner .b-part .part1 .p1-l{
+    top:310px;
+    left:55px;
+}
+#banner .b-part .part1 .p1-l>img{
+    width:100%;
+    height:100%;
+}
+#banner .b-part .part1 .p1-r{
+    height:435px;
+    bottom:0;
+    right:10px;
+}
+#banner .b-part .part1 .p1-r .m-v{
+    width:100%;
+    height:100%;
+}
+#banner .b-part .part1 .p1-r .m-v>img{
+    width:100%;
+    height:100%;
+}
+/*第二三张的公共部分 开始*/
+#banner .b-part .part23 .left>p{
+    text-align: center;
+    margin-bottom:10px;
+}
+#banner .b-part .part23 .left .p2-l-p3>img{
+    padding-top:7px;
+}
+#banner .b-part .part23 .left .p2-l-p3{
+    background: rgb(179,205,53);
+    -webkit-border-radius:5px;
+    -moz-border-radius:5px;
+    border-radius:5px;
+}
+/*第二三张的公共部分 结束*/
+/*第二张*/
+#banner .b-part .part2{
+     /*display: block;*/
+     background: url("../../images/index/bg2-0.jpg") no-repeat center;
+    -webkit-background-size:cover;
+    background-size:cover;
+ }
+#banner .b-part .part2 .p2-l{
+    top:310px;
+    left:55px;
+}
+#banner .b-part .part2 .p2-r{
+    top:35px;
+    right:100px;
+}
+/*第三张*/
+#banner .b-part .part3{
+    /*display: block;*/
+    background: url("../../images/index/bg3-1.jpg") no-repeat center;
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+#banner .b-part .part3 .p3-l{
+    top:100px;
+    right:100px;
+}
+#banner .b-part .part3 .p3-r{
+    left:50px;
+}
+
+/*点点*/
+#banner .b-dot{
+    position: absolute;
+    width:100%;
+    bottom:5%;
+}
+#banner .b-dot .b-d-ul{
+    width:55px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#banner .b-dot .b-d-ul li{
+    float: left;
+    width:15px;
+    height:15px;
+    cursor: pointer;
+    background: url("../../images/index/b_dot.png") no-repeat center center;
+}
+#banner .b-dot .b-d-ul li.li-on{
+    background: url("../../images/index/b_dot_s.png") no-repeat center center;
+}
+#banner .b-dot .b-d-ul li:nth-last-child(1),#banner .b-dot .b-d-ul li:nth-last-child(2){
+    margin-left:5px;
+}
+/*end banner*/
+
+/*案例开始*/
+#contair{
+    position: relative;
+    width:100%;
+    height:790px;
+    background: url("../../images/index/bg.png") center center;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+}
+.anli{
+    width:100%;
+}
+.anli .al-box{
+    max-width:520px;
+    width:50%;
+    margin:0 auto;
+    padding:30px 0;
+    line-height:40px;
+    text-align: center;
+    background: url("../../images/index/line.png") no-repeat bottom center;
+}
+.anli .al-box h2 img{
+    width:50%;
+}
+.anli .al-box h1{
+    width:100%;
+    font-size:20px;
+}
+/*手机 开始*/
+#contair .c-ph{
+    position: relative;
+    margin:40px 0;
+}
+#contair .c-ph .c-p-img{
+    width:1200px;
+    margin:0 auto;
+    overflow: hidden;
+}
+#contair .c-ph .c-p-img ul{
+    position: relative;
+    left:-480px;
+    /*top:0;*/
+    width:2160px;
+    height:450px;
+    padding:80px 0;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#contair .c-ph .c-p-img ul .c-p-i-li{
+    float: left;
+    width:240px;
+    vertical-align: top;
+    -webkit-transform: scale(0.8);
+    -moz-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    -o-transform: scale(0.8);
+    transform: scale(0.8);
+
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#contair .c-ph .c-p-img ul .li-side{
+    -webkit-transform: scale(1.0);
+    -moz-transform: scale(1.0);
+    -ms-transform: scale(1.0);
+    -o-transform: scale(1.0);
+    transform: scale(1.0);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#contair .c-ph .c-p-img ul .li-center{
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+}
+#contair .c-ph .c-p-img ul .c-p-i-li img{
+    width:100%;
+}
+/*手机 结束*/
+/*左右按钮 开始*/
+.c-ph-nav,.bt{width:80%;}
+#contair .c-ph .bt .bt-g{
+    position: absolute;
+    top:40%;
+    cursor: pointer;
+}
+#contair .c-ph .bt .bt-left{
+    left:5%;
+}
+#contair .c-ph .bt .bt-right{
+    right:5%;
+}
+/*左右按钮 结束*/
+/*点导航 开始*/
+#contair .c-ph .c-ph-nav .c-p-n-dot{
+    position: absolute;
+    bottom:5%;
+    left:50%;
+    margin-left:-135px;
+    z-index:100;
+}
+#contair .c-ph .c-ph-nav .c-p-n-dot li{
+    float: left;
+    width:20px;
+    height:20px;
+    margin-right:10px;
+    cursor: pointer;
+}
+#contair .c-ph .c-ph-nav .c-p-n-dot li.n-dot-li{
+    background: url("../../images/index/c_dot1.png") no-repeat center center;
+}
+#contair .c-ph .c-ph-nav .c-p-n-dot li.n-dot-li1{
+    background: url("../../images/index/c_dot2.png") no-repeat center center;
+}
+#contair .c-ph .c-ph-nav .c-p-n-dot li.n-dot-li2{
+    background: url("../../images/index/c_dot2.png") no-repeat center center;
+}
+#contair .c-ph .c-ph-nav .c-p-n-dot li.n-dot-li23{
+    background: url("../../images/index/c_dot_s.png") no-repeat center center;
+}
+/*点导航 结束*/
+/*案例结束*/
+
+/*研发开始*/
+#yf{
+    width:100%;
+    height:500px;
+    margin:0 auto;
+}
+#yf .yf-list{
+    margin:100px 0;
+    overflow: hidden;
+}
+#yf .yf-list .yf-l-ul{
+    width:900px;
+    margin:0 auto;
+}
+#yf .yf-list .yf-l-ul .yf-l-u-li{
+    float: left;
+    margin:0 58px;
+}
+/*研发结束*/

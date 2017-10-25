@@ -1,0 +1,26 @@
+@media all and (max-width: 899px) and (min-width: 600px) {
+    /*图片展示区 开始*/
+    .box-img{
+        top:110px;
+        height:400px;
+        background-size: cover;
+    }
+    .content-g{
+        left:35px;
+        top:140px;
+        width:270px;
+        height:91px;
+    }
+    .content-g p img{
+        width:100%;
+    }
+    .content-g p:nth-child(2) img{
+        width:90%;
+    }
+    /*图片展示区 结束*/
+    /*案例开始*/
+    .anli .al-box h2 img{
+        width:70%;
+    }
+    /*案例结束*/
+}
