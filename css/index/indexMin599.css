@@ -2,7 +2,8 @@
 
     /*start banner*/
     #banner{
-        /*width:100%;*/
+        width:100%;
+        min-width: 320px;
         height:400px;
         margin-top:102px;
     }

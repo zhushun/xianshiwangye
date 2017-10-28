@@ -98,12 +98,15 @@
 @media all and (max-width: 599px) and (min-width: 320px) {
     /*start header*/
     #header {
+        width:100%;
+        /*min-width: 320px;*/
         height: 100px;
         background: #fff;
     }
     #header .h-main {
         /*width:715px;*/
         width: 100%;
+        min-width: 320px;
     }
     #header .h-main .h-m-logo {
         float: none;
@@ -189,6 +192,11 @@
 @media all and (max-width: 899px) and (min-width: 600px) {
     /*start header*/
     #header {
+        width:100%;
+
+
+
+
         height: 100px;
         background: #fff;
     }

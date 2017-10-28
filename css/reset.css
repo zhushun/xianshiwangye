@@ -2,11 +2,13 @@ body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input
     margin:0;
     padding:0;
 }
-body{
+body,html{
+    min-width: 320px;
     background:#fff;
     color:#000;
     font-size:14px;
     font-family: 'Microsoft yahei',Verdana, Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 td,th,caption {
     font-size:14px;

@@ -2,7 +2,8 @@
 
     /*start banner*/
     #banner{
-        /*width:100%;*/
+        width:100%;
+        min-width: 600px;
         height:350px;
         margin-top:102px;
     }
@@ -84,7 +85,9 @@
     }
     #contair .c-ph .c-p-img ul{
         left:-510px;
-        width:1620px;
+
+        /*width:1620px;*/
+
         height:350px;
     }
     #contair .c-ph .c-p-img ul .c-p-i-li{
